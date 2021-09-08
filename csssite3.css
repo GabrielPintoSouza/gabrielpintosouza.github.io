@@ -1,0 +1,216 @@
+body {
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+}
+
+header {
+	background-color: rgb(227,227,227);
+	color: rgb(13, 44, 57); 
+	padding-top: 3px;
+}
+
+.centralizado {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+.centralizado1 {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	height: 600px;
+}
+.centralizado2 {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	height: 200px;
+}
+
+
+#logo {
+	font-size: 1em;
+	margin-top: 0;
+	padding-top: 5px;
+}
+
+#logo span {
+	color: rgb(250, 127, 0);
+}
+
+header h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+header p {
+	font-size: 1em;
+}
+
+#pano-fundo {
+	height: 320px;
+	width: 620px;
+	background: url(../img/entregador_site4.png) no-repeat top right;
+}
+
+#slogan {
+	width: 300px;
+}
+
+header img {
+	float: left;
+	width: 200px;
+}
+
+header nav {
+	clear: left;
+	background-color: rgb(13, 42, 54);
+	padding: 5px 0;
+}
+
+header li {
+	display: inline;
+	padding: 0px 10px;
+	margin-right: 17px;
+}
+header li:last-child {
+	margin-right: 0;	
+}
+
+header li:first-child {
+	background-color: rgb(250, 127, 0);
+	padding: 10px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contato {
+	background-color: rgb(1, 21, 31);
+	color: #fff;
+	padding: 5px;
+	width: 160px;
+	font-weight: bold;
+	font-size: 0.8em;
+	border-radius: 5px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.contato span {
+	color: rgb(250, 127, 0);
+}
+
+main section {
+	width: 210px;
+	float: left;
+	margin-right: 20px;
+	border: 2px rgb(240, 240, 240) solid;
+}
+
+main section:last-child {
+	margin-right: 0;
+}
+main img {
+	width: inherit;
+	height: 150px;
+	margin:0px auto;
+}
+
+.destaque {
+	 clip-path: polygon(0 0, 100% 0, 100% 70%, 60% 70%, 50% 100%, 40% 70%, 0 70%);
+	 background-color: rgb(13, 42, 54);
+	 color: #fff;
+	 width: inherit;
+	 height: 40px;
+}
+.teste {
+	height: 350px;
+	width: inherit;
+	
+}
+.rodape{
+	width:100%;
+	bottom: 0px;
+	height: 300px;
+	left: 0px;
+	background: #0d2935;
+	color: #fff;
+	
+}
+.side{
+	display: inline-flex;
+	width: 347px;
+	position:relative;
+	margin-top: 10px;
+}
+.teste span{
+	color:#fff;
+	background-color:rgb(250,127,0);
+	padding: 3px;
+	
+}
+.table td{
+	width: 120px;
+	background: #00151e;
+	border-color: #00151e;
+	column-rule-color: #00151e;
+}
+.table {
+	width: 347px;
+	background-color: #00151e;
+	position: relative;
+	display: inline-flex;
+}
+.preenchimento{
+	width: 347px;
+	display: inline-flex;
+	margin:0px;
+}
+a{
+	text-decoration: none;
+}
+
+.formu{
+	background-color: #00151e;
+	color:  rgb(166, 175, 166);
+	display: block;
+	width: 320px;
+}
+.formu1{
+	background-color: #00151e;
+	color:  rgb(166, 175, 166);
+	display: block;
+	width: 320px;
+	height: 100px;
+}
+.envio{
+	background-color: rgb(250,127,0);
+	color: #fff;
+	left: 272px;
+	position: relative;
+}
+.destaque h3{
+	margin-top: 0px;
+}
+.teste span a{
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
