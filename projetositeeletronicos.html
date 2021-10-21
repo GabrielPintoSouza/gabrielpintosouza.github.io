@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="csspapelaria.css">
+        <script src="papelariaJS/JSeletronico.js"></script>
         <title>Eletrônicos</title>
     </head>
     <body>
@@ -26,64 +27,82 @@
                 <a href="#">Carregadores</a>
                 <div>
                     <img src="carregador1.jpg" alt="Imagem ilustrativa: Carregador1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt25">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="carregador2.jpg" alt="Imagem ilustrativa: Carregador2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt26">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="carregador3.jpg" alt="Imagem ilustrativa: Carregador3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt27">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Fones de Ouvido</a>
                 <div>
                     <img src="fone1.jpg" alt="Imagem ilustrativa: Fone Ouvido1" width="120px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt28">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="fone2.png" alt="Imagem ilustrativa: Fone Ouvido2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt29">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="fone3.png" alt="Imagem ilustrativa: Fone Ouvido3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt30">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Cabos USB</a>
                 <div>
                     <img src="cabousb1.png" alt="Imagem ilustrativa: USB1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt31">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cabousb2.jpg" alt="Imagem ilustrativa: USB2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt32">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cabousb3.jpg" alt="Imagem ilustrativa: USB3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt33">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Cabos P2</a>
                 <div>
                     <img src="cabop21.jpg" alt="Imagem ilustrativa: P2 1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt34">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cabop22.jpg" alt="Imagem ilustrativa: P2 2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt35">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cabop23.jpg" alt="Imagem ilustrativa: P2 3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt36">Mais Informações</button><br>
                 </div>
             </section>
         </main>
         <footer>
+            <div>
+                <h3>Informações do Produto Selecionado</h3>
+                <img id="modelo" src="caixaModelo.png" alt="Imagem ilustrativa: Representação do produto selecionado." width="200px" height="200px">
+                <p>Descrição:</p>
+                <p>Valor:</p>
+                <br>
+                <input type="text" id="cdcupom" placeholder="Insira o seu código de desconto.">
+                <button id="cupom">Pedir desconto</button>
+                <br>
+                <button id="adCarrinho">Adicionar ao Carrinho</button>
+                <button id="rmCarrinho">Remover do Carrinho</button>
+            </div>
+            <div>
+                <h3>Carrinho de Compras</h3>
+                <p>Valor total:</p>
+                <button id="finalizarCompras">Comprar</button>
+                <p>...</p>
+            </div>
         </footer>
     </body>
 </html>

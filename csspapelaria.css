@@ -29,7 +29,6 @@ header span{
 }
 footer{
     background-color: rgb(90, 92, 91);
-    height: 100px;
     color: #fff;
 }
 main{
@@ -45,6 +44,12 @@ footer a{
     text-decoration: none;
     margin-right: 10px;
 }
+footer button{
+    margin-bottom: 15px;
+}
+footer input{
+    width: 200px;
+}
 .box{
     position:relative;
     width: 20%;
@@ -58,4 +63,21 @@ footer a{
 }
 .box img{
     margin-top: 10px;
+}
+.box button{
+    background-color: rgb(223, 124, 210);
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+footer div{
+    position:relative;
+    width: 40%;
+    display: inline-block;
+}
+footer button{
+    background-color: rgb(223, 124, 210);
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
 }

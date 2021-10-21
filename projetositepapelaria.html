@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="csspapelaria.css">
+        <script src="papelariaJS/JSpapelaria.js"></script>
         <title>Papelaria</title>
     </head>
     <body>
@@ -26,64 +27,82 @@
                 <a href="#">Cartolinas</a>
                 <div>
                     <img src="papel1.jpg" alt="Imagem ilustrativa: Cartolina1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt13">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cartolina1.png" alt="Imagem ilustrativa: Cartolina2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt14">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cartolina2.png" alt="Imagem ilustrativa: Cartolina3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt15">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Canetas</a>
                 <div>
                     <img src="caneta1.jpg" alt="Imagem ilustrativa: Caneta1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt16">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="caneta2.jpg" alt="Imagem ilustrativa: Caneta2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt17">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="caneta3.jpg" alt="Imagem ilustrativa: Caneta3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt18">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Cardenetas</a>
                 <div>
                     <img src="cardeneta1.jpg" alt="Imagem ilustrativa: Cardeneta1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt19">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cardeneta2.jpg" alt="Imagem ilustrativa: Cardenata2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt20">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="cardeneta3.jpg" alt="Imagem ilustrativa: Cardeneta3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt21">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Pastas Escolares</a>
                 <div>
                     <img src="pasta1.jpg" alt="Imagem ilustrativa: Pasta Escolar1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt22">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="pasta2.jpg" alt="Imagem ilustrativa: Pasta Escolar2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt23">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="pasta3.jpg" alt="Imagem ilustrativa: Pasta Escolar3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt24">Mais Informações</button><br>
                 </div>
             </section>
         </main>
         <footer>
+            <div>
+                <h3>Informações do Produto Selecionado</h3>
+                <img id="modelo" src="caixaModelo.png" alt="Imagem ilustrativa: Representação do produto selecionado." width="200px" height="200px">
+                <p>Descrição:</p>
+                <p>Valor:</p>
+                <br>
+                <input type="text" id="cdcupom" placeholder="Insira o seu código de desconto.">
+                <button id="cupom">Pedir desconto</button>
+                <br>
+                <button id="adCarrinho">Adicionar ao Carrinho</button>
+                <button id="rmCarrinho">Remover do Carrinho</button>
+            </div>
+            <div>
+                <h3>Carrinho de Compras</h3>
+                <p>Valor total:</p>
+                <button id="finalizarCompras">Comprar</button>
+                <p>...</p>
+            </div>
         </footer>
     </body>
 </html>

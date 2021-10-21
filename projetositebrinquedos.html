@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="csspapelaria.css">
+        <script src="papelariaJS/JSramonapresentes.js"></script>
         <title>Seção de Brinquedos</title>
     </head>
     <body>
@@ -26,64 +27,82 @@
                 <a href="#">Bolas</a>
                 <div>
                     <img src="bola1.jpg" alt="Imagem ilustrativa: Bola1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt1">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="bola2.jpg" alt="Imagem ilustrativa: Bola2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt2">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="bola3.jpg" alt="Imagem ilustrativa: Bola3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt3">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Carrinhos</a>
                 <div>
                     <img src="carrinho1.jpg" alt="Imagem ilustrativa: Carrinho1" width="120px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt4">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="carrinho2.png" alt="Imagem ilustrativa: Carrinho2" width="120px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt5">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="carrinho3.jpg" alt="Imagem ilustrativa: Carrinho3" width="120px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt6">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Massinhas</a>
                 <div>
                     <img src="massinha1.jpg" alt="Imagem ilustrativa: Massinha1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt7">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="massinha2.jpg" alt="Imagem ilustrativa: Massinha2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt8">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="massinha3.jpg" alt="Imagem ilustrativa: Massinha3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt9">Mais Informações</button><br>
                 </div>
             </section>
             <section class="box">
                 <a href="#">Bonecos/Bonecas</a>
                 <div>
                     <img src="boneco1.jpg" alt="Imagem ilustrativa: Boneco(a)1" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt10">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="boneco2.jpg" alt="Imagem ilustrativa: Boneco(a)2" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt11">Mais Informações</button><br>
                 </div>
                 <div>
                     <img src="boneco3.jpg" alt="Imagem ilustrativa: Boneco(a)3" width="100px" height="100px">
-                    <br><a href="#">Mais Informações</a></br>
+                    <br><button id="bt12">Mais Informações</button><br>
                 </div>
             </section>
         </main>
         <footer>
+            <div>
+                <h3>Informações do Produto Selecionado</h3>
+                <img id="modelo" src="caixaModelo.png" alt="Imagem ilustrativa: Representação do produto selecionado." width="200px" height="200px">
+                <p>Descrição:</p>
+                <p>Valor:</p>
+                <br>
+                <input type="text" id="cdcupom" placeholder="Insira o seu código de desconto.">
+                <button id="cupom">Pedir desconto</button>
+                <br>
+                <button id="adCarrinho">Adicionar ao Carrinho</button>
+                <button id="rmCarrinho">Remover do Carrinho</button>
+            </div>
+            <div>
+                <h3>Carrinho de Compras</h3>
+                <p>Valor total:</p>
+                <button id="finalizarCompras">Comprar</button>
+                <p>...</p>
+            </div>
         </footer>
     </body>
 </html>
