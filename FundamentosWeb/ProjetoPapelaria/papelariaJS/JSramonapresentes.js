@@ -192,7 +192,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "carrinho1.jpg";
+objImg.src = "img/carrinho1.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -203,7 +203,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "carrinho2.png";
+objImg.src = "img/carrinho2.png";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -214,7 +214,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "carrinho3.jpg";
+objImg.src = "img/carrinho3.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -226,7 +226,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "massinha1.jpg";
+objImg.src = "img/massinha1.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -237,7 +237,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "massinha2.jpg";
+objImg.src = "img/massinha2.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -248,7 +248,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "massinha3.jpg";
+objImg.src = "img/massinha3.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -260,7 +260,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "boneco1.jpg";
+objImg.src = "img/boneco1.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -271,7 +271,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "boneco2.jpg";
+objImg.src = "img/boneco2.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
@@ -282,7 +282,7 @@ valorProduto = valor;
 let enviarDescricao = document.getElementsByTagName("p")[0];
 let enviarValor = document.getElementsByTagName("p")[1];
 let objImg = document.getElementById("modelo");
-objImg.src = "boneco3.jpg";
+objImg.src = "img/boneco3.jpg";
 enviarDescricao.innerHTML = ("Descrição: "+ descricao);
 enviarValor.innerHTML = ("Valor do Produto: " + valor);
 }
