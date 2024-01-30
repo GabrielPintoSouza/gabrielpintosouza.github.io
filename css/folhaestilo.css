@@ -4,8 +4,13 @@ body{
     
 }
 .menu{
-    text-align: center;
+    text-align:center;
 }
+
+.menu a{
+    margin: 5px;
+}
+
 .texto{
     text-align: justify;
     width: 70%;
@@ -15,6 +20,11 @@ body{
 header{
     background-color: rgba(175, 173, 170, 0.589);
     text-align: center;
+    padding: 15px;
+}
+
+header .titulo{
+    margin-top: 0;
 }
 footer{
     background-color: rgba(175, 173, 170, 0.589);
