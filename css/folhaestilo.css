@@ -46,12 +46,13 @@ body{
 header{
     background-color: var(--primary-color);
     text-align: center;
-    padding: 15px;
+} */
+
+header #navbar{
+    background-color: rgba(179, 179, 176, 0.589);
 }
 
-header .titulo{
-    margin-top: 0;
-}
+
 footer{
     background-color: var(--background-color);
     bottom: 0px;
