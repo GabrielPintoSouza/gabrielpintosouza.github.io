@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.rtl.min.css"
-        integrity="sha512-4W9f7EnJgM33kD11Ux2XNF9DSpJ7LoQXCvBNhzKTorRSyjPHmjXhHMZMafIYqYvTNWahUk2ulNsarMMLDEv4zA=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"
         integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="
@@ -45,7 +44,9 @@
                     <ul class="navbar-nav mb-2 mb-md-0">
                         <li class="nav-item"><a class="nav-link" href="https://github.com/GabrielPintoSouza"
                                 target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i> Github</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/gabriel-pinto-de-souza-255875267/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="https://www.linkedin.com/in/gabriel-pinto-de-souza-255875267/" target="_blank"
+                                rel="noopener noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,6 +77,82 @@
             <hr class="hero-divider">
         </section>
 
+        <section class="projetos container text-center">
+            <h3 class="section-title"><strong>Projetos</strong></h3>
+            <div id="projectsCarousel" class="carousel slide projects-carousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Projeto Art"></button>
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1"
+                        aria-label="Projeto Formulário"></button>
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2"
+                        aria-label="Projeto ExactTime"></button>
+                    <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="3"
+                        aria-label="Outros projetos"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <article class="carousel-item active">
+                        <a class="project-card" href="5_Projeto_Art/index.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="5_Projeto_Art/img/preview.png" class="project-preview"
+                                alt="Prévia do projeto Art">
+                            <span class="project-caption">
+                                <strong>Art</strong>
+                                <span>Confira o projeto</span>
+                            </span>
+                        </a>
+                    </article>
+
+                    <article class="carousel-item">
+                        <a class="project-card" href="8_Projeto_formulario/login.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="8_Projeto_formulario/img/preview.png" class="project-preview"
+                                alt="Prévia do projeto Formulário">
+                            <span class="project-caption">
+                                <strong>Formulário</strong>
+                                <span>Confira o projeto</span>
+                            </span>
+                        </a>
+                    </article>
+
+                    <article class="carousel-item">
+                        <a class="project-card" href="10_Projeto_ExactTime/index.html" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="10_Projeto_ExactTime/img/preview.png" class="project-preview"
+                                alt="Prévia do projeto ExactTime">
+                            <span class="project-caption">
+                                <strong>ExactTime</strong>
+                                <span>Confira o projeto</span>
+                            </span>
+                        </a>
+                    </article>
+
+                    <article class="carousel-item">
+                        <a class="project-card project-card-github" href="https://github.com/GabrielPintoSouza"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github" aria-hidden="true"></i>
+                            <span class="project-caption">
+                                <strong>Outros</strong>
+                                <span>Veja mais repositórios no GitHub</span>
+                            </span>
+                        </a>
+                    </article>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+
         <section class="especialidades container">
             <h3 class="section-title"><strong>Tecnologias</strong></h3>
             <div class="skills-grid">
@@ -88,18 +165,6 @@
                 <div class="skill"><img src="./assets/Git.svg" alt="Logo do Git"></div>
                 <div class="skill"><img src="./assets/Linux.svg" alt="Logo do Linux"></div>
                 <div class="skill"><img src="./assets/Apache.svg" alt="Logo do Apache"></div>
-            </div>
-        </section>
-
-        <section class="projetos container text-center">
-            <h3 class="section-title"><strong>Projetos</strong></h3>
-            <div class="projects-grid">
-                <!--Fazer um carrosel para ir passando os projetos-->
-                <div class="project">
-                    <a href="https://github.com/GabrielPintoSouza" target="_blank" rel="noopener noreferrer">
-                        <i class="bi bi-github"></i> Repositórios no GitHub
-                    </a>
-                </div>
             </div>
         </section>
 
