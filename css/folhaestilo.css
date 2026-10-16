@@ -5,6 +5,11 @@
     --background-color:#f7f7f7;
 }
 
+span.author-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 body{
     background-color:var(--background-color);
     margin: 0px;
@@ -272,9 +277,18 @@ footer{
 
 @media (min-width:768px){
     .hero-inner{
-        justify-content:flex-start;
+        justify-content:center;
+        flex-wrap:nowrap;
+    }
+    .hero-inner > .col-8,
+    .hero-inner > .col-10{
+        width:auto;
+        flex:0 1 auto;
     }
     .profile-img{ width:200px; height:200px; }
+    .profile-info{
+        max-width:none;
+    }
     .projects-carousel{
         max-width:900px;
     }
